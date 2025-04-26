@@ -1,0 +1,544 @@
+.body{
+overflow: hidden;
+
+}
+
+
+
+
+
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.4);
+
+    padding: 10px;
+    color: white;
+}
+
+.navigation a {
+    color: white;
+    padding-right: 8px;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+
+.headtext {
+    text-transform: capitalize;
+    padding-left: 130px;
+    padding-top: 50px;
+    font-size: 25;
+
+}
+
+.lowertext {
+    text-transform: capitalize;
+    padding-left: 90px;
+    padding-top: px;
+    font-size: 25;
+}
+
+
+
+.one {
+    font-size: small;
+    color: black;
+    padding-left: 125px;
+
+}
+
+.two {
+    font-size: small;
+    color: black;
+    padding-left: 95px;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+
+}
+
+header {
+    background-image: url('../img/it.jpg');
+    background-size: cover;
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.4);
+    /*background-blend-mode: ;*/
+
+
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-top: 40px;
+    column-gap: 20px;
+    text-align: center;
+}
+
+.shadab {
+    text-transform: capitalize;
+    font-size: large;
+    font-weight: 800;
+
+
+}
+
+.ansari {
+
+
+    color: gray;
+    font-size: small;
+
+
+
+}
+
+hr {
+    margin-left: 100px
+    ;margin-bottom:50px ;
+
+    padding: 0;
+    width: 20%;
+
+}
+
+.icons {
+    display: flex;
+    padding-left: 100px;
+    column-gap: 10px;
+}
+
+.divider {
+    border: 1px solid lightblue;
+    height: 100%;
+}
+
+.image {
+    display: flex;
+    column-gap: 40px;
+    padding-top: 80px;
+    padding-left: 100px;
+    padding-right: 30px;
+
+
+
+}
+
+.bluearea {
+    height: 200px;
+    width: 930px;
+    background-color: #140748;
+    margin: -80px;
+    padding-left: 155px;
+    padding-top: 150px;
+}
+
+.font {
+    text-transform: uppercase;
+    font-weight: 70px;
+    font-size: 30px;
+    color: white;
+    font-family: Bebas Neue;
+
+}
+
+.figure {
+    padding-top: 20px;
+    text-transform: uppercase;
+    font-weight: 70px;
+    font-size: 20px;
+    color: #140748;
+    font-family: Bebas Neue;
+
+}
+
+.Services {
+    font-size: 18px;
+    color: white;
+    font-family: Roboto;
+
+}
+
+
+.features2 {
+    padding-top: 0px;
+    margin-top: 0px;
+padding-right: 50px;
+}
+
+.hell {
+
+    padding-top: 80px;
+
+
+
+
+}
+
+.teacher {
+
+    display: flex;
+    justify-content:space-evenly;
+    column-gap: 20px;
+
+}
+
+.and {
+    padding-top: 40px;
+    color: #666666;
+    font-family: Roboto;
+    size: 40px;
+}
+
+.navigation3 {
+    padding-top: 120px;
+    font-size: small;
+
+}
+
+.figure {
+    font-size: 35;
+
+
+}
+
+.flex {
+    display: flex;
+    column-gap: 10px;
+    padding-top: 20px;
+    font-family: "Bebas Neue";
+
+}
+
+.lack {
+    margin-top: 10px;
+    size: px;
+}
+
+.services1 {
+    text-align: center;
+    font-family: "Poppins", sans-serif;
+    padding-top: 100px;
+    padding-bottom: 10px;
+}
+
+.ui {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 1px;
+    padding-top: 20px;
+
+    padding-right: 15px;
+    padding-left: 15px;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+}
+
+.ui img {
+    height: 200px;
+    width: 200px;
+    padding-bottom: 10px;
+    border-radius: 0px;
+
+}
+
+.ui .ab4 {
+    padding-bottom: 30px;
+}
+
+.ui input {
+    background-color: white;
+    color: midnightblue;
+    width: 80%;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid gray;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.but {
+    padding-bottom: 15px;
+}
+
+.pfolio img {
+    background-size: cover;
+    width: 100%;
+    height: 800px;
+    object-fit: cover;
+    object-position: middle;
+    padding-top: 100px;
+}
+
+.reviews {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    column-gap: 30px;
+    padding-left: 50px;
+    padding-right: 100px;
+    font-family: "Poppins", sans-serif;
+    margin-top: -150px;
+}
+
+.reviews img {
+    height: 100px;
+    width: 100px;
+    padding: 0px 10px 0px 30px;
+    border-radius: 100%;
+}
+
+.r1,
+.r2,
+.r3 {
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px gray;
+}
+
+.small {
+    font-size: large;
+    color: rgb(78, 78, 78);
+    padding: 10px 30px 10px 30px;
+}
+
+.name {
+    font-size: large;
+    font-weight: bold;
+    color: black;
+}
+
+.reviewers {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    column-gap: 10px;
+    padding-bottom: 20px;
+}
+
+.reviewers p {
+    padding-left: 30px;
+    padding-top: 20px;
+    margin: 0px;
+}
+
+.logos {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 100px;
+}
+
+.logos img {
+
+
+    height: 200px;
+
+    width: 100%;
+
+}
+
+.last {
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+    padding-left: 80px;
+    padding-right: 0px;
+    padding-top: 100px;
+    font-family: "Poppins", sans-serif;
+}
+
+.left div {
+    border-bottom: 0.5px solid gray;
+}
+
+.left {
+    padding-right: 200px;
+}
+.ab1 {
+font-size: x-large;
+    font-weight: bold;
+    color:mediumslateblue ;
+
+}
+
+
+.ab5 {
+
+    font-size: large;
+    font-weight: bold;
+    color: mediumslateblue;
+
+}
+
+.ab6
+ {
+
+    font-size: large;
+    font-weight: bold;
+    color: mediumslateblue;
+
+}
+
+.right {
+    padding-top: 100px;
+    padding-left: 0px;
+    background-color: mediumslateblue;
+    height: 500px;
+    width: 500px;
+    margin-top: -50px;
+    margin-left: 30px;
+}
+
+.right input {
+    background-color: rgba(255, 255, 255, 0.986);
+    color: midnightblue;
+    width: 50%;
+    height: 50px;
+
+
+
+    row-gap: 20px;
+    padding-left: 30px;
+
+}
+
+.right p {
+    padding-bottom: 20px;
+    padding-left: 20px;
+    width: 600px;
+}
+
+.lastsubmit input {
+    width: 25%;
+    height: 50px;
+    border-radius: 5px;
+    font-size: large;
+    font-family: "Poppins", sans-serif;
+    background-color: midnightblue;
+    color: white;
+
+}
+
+.lastsubmit input:hover {
+    background-color: rgb(112, 112, 210);
+    color: white
+}
+
+.right textarea {
+    height: 100px;
+    width: 53%;
+    border-radius: 5px;
+}
+
+.right section {
+    background-color: white;
+    margin-left: -80px;
+    margin-top: -20px;
+    height: 400px;
+    width: 70%;
+    padding: 20px 20px 20px 50px;
+    border: 0.5px solid gray;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 20px;
+}
+
+.copyright {
+    background-color: midnightblue;
+    color: white;
+    font-family: "Poppins", sans-serif;
+    text-align: center;
+    padding: 100px;
+}
+
+.copy1 {
+    font-size: 40px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding-bottom: 40px;
+}
+
+.copyright img {
+    height: 50px;
+    width: 50px;
+    
+}
+
+.copy2 {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    padding-left: 270px;
+    padding-right:400px;
+    column-gap: 10px;
+    padding-bottom: 20px;
+   
+}
+
+.copyright div hr {
+    width: 50%;
+    border: 0.5px solid gray;
+    padding-left: 400px;
+}
+
+.copy3 {
+    font-size: 15px;
+    font-weight: normal;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    line-height: 50px;
+}
+
+.features {
+    display: grid;
+
+    margin-top: 0;
+    grid-template-columns: auto auto;
+    text-align: center;
+
+
+
+}
+
+.teacher {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    column-gap: 30px;
+}
+
+.navigation2 {
+    padding-top: 50px;
+    overflow: hidden;
+    text-align: left;
+
+}
+
+.figure {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 40px;
+    font-family: Bebas Neue;
+    background-color: white;
+    text-align: center;
+    padding-right: 221px;
+
+}
+
+.bhai {
+    color: grey;
+    padding-top: 30px;
+    font-size: 16px;
+    text-align: left;
+    overflow: hidden;
+    padding-left: 29px;
+    padding-right: 100px;
+    font-family: "Roboto", Sans-serif;
+}
+.features3{
+    display: flex;
+}
